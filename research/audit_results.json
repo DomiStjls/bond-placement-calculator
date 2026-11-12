@@ -1,0 +1,852 @@
+{
+  "seed": 173,
+  "ledger_cases": 1564,
+  "max_monthly_error_rub": 5.960464477539063e-08,
+  "small_grids": [
+    {
+      "case": 0,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 1,
+      "points": 18,
+      "profit": 1935.05,
+      "status": "optimal"
+    },
+    {
+      "case": 2,
+      "points": 36,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 3,
+      "points": 56,
+      "profit": 168012.5,
+      "status": "optimal"
+    },
+    {
+      "case": 4,
+      "points": 71,
+      "profit": 8625.0,
+      "status": "optimal"
+    },
+    {
+      "case": 5,
+      "points": 77,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 6,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 7,
+      "points": 18,
+      "profit": 44180.25,
+      "status": "optimal"
+    },
+    {
+      "case": 8,
+      "points": 36,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 9,
+      "points": 56,
+      "profit": 3017.5,
+      "status": "optimal"
+    },
+    {
+      "case": 10,
+      "points": 71,
+      "profit": 464357.5,
+      "status": "optimal"
+    },
+    {
+      "case": 11,
+      "points": 77,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 12,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 13,
+      "points": 18,
+      "profit": 1935.05,
+      "status": "optimal"
+    },
+    {
+      "case": 14,
+      "points": 36,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 15,
+      "points": 56,
+      "profit": 168012.5,
+      "status": "optimal"
+    },
+    {
+      "case": 16,
+      "points": 71,
+      "profit": 8625.0,
+      "status": "optimal"
+    },
+    {
+      "case": 17,
+      "points": 77,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 18,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 19,
+      "points": 18,
+      "profit": 44180.25,
+      "status": "optimal"
+    },
+    {
+      "case": 20,
+      "points": 36,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 21,
+      "points": 56,
+      "profit": 3017.5,
+      "status": "optimal"
+    },
+    {
+      "case": 22,
+      "points": 71,
+      "profit": 464357.5,
+      "status": "optimal"
+    },
+    {
+      "case": 23,
+      "points": 77,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 24,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 25,
+      "points": 18,
+      "profit": 1935.05,
+      "status": "optimal"
+    },
+    {
+      "case": 26,
+      "points": 36,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 27,
+      "points": 56,
+      "profit": 168012.5,
+      "status": "optimal"
+    },
+    {
+      "case": 28,
+      "points": 71,
+      "profit": 8625.0,
+      "status": "optimal"
+    },
+    {
+      "case": 29,
+      "points": 77,
+      "profit": 0.0,
+      "status": "no_acceptable_allocation"
+    },
+    {
+      "case": 30,
+      "points": 6,
+      "profit": 11500.0,
+      "status": "optimal"
+    },
+    {
+      "case": 31,
+      "points": 18,
+      "profit": 44180.25,
+      "status": "optimal"
+    }
+  ],
+  "base": {
+    "A": {
+      "production_volumes": [
+        6000000000,
+        1500000000,
+        2003000000,
+        1636000000
+      ],
+      "production_profit": 126956031.49999997,
+      "status": "optimal",
+      "metrics": {
+        "profit": 126956031.5,
+        "capital_years": 479076000.0,
+        "roe": 0.2650018608738488,
+        "irr": 0.31545078428539375,
+        "accepted": true,
+        "flow_sum": 126956031.5
+      },
+      "independent_search": {
+        "profit": 126956031.49999999,
+        "volumes": [
+          6000000000,
+          1500000000,
+          2003000000,
+          1636000000
+        ],
+        "upper_bound": 126956031.49999999,
+        "points": 8001,
+        "seconds": 48.85012660000211,
+        "metrics": {
+          "profit": 126956031.5,
+          "capital_years": 479076000.0,
+          "roe": 0.2650018608738488,
+          "irr": 0.31545078428539375,
+          "accepted": true,
+          "flow_sum": 126956031.5
+        }
+      }
+    },
+    "B": {
+      "production_volumes": [
+        5000000000,
+        1000000000,
+        3628000000,
+        31000000
+      ],
+      "production_profit": 61236312.00000002,
+      "status": "optimal",
+      "metrics": {
+        "profit": 61236312.0,
+        "capital_years": 231078000.0,
+        "roe": 0.2650027782826578,
+        "irr": 0.30011378774278796,
+        "accepted": true,
+        "flow_sum": 61236312.0
+      },
+      "independent_search": {
+        "profit": 61236312.000000015,
+        "volumes": [
+          5000000000,
+          1000000000,
+          3628000000,
+          31000000
+        ],
+        "upper_bound": 61236312.000000015,
+        "points": 15001,
+        "seconds": 79.18211069999961,
+        "metrics": {
+          "profit": 61236312.0,
+          "capital_years": 231078000.0,
+          "roe": 0.2650027782826578,
+          "irr": 0.30011378774278796,
+          "accepted": true,
+          "flow_sum": 61236312.0
+        }
+      }
+    },
+    "C": {
+      "production_volumes": [
+        3000000000,
+        1000000000,
+        3984000000,
+        15000000
+      ],
+      "production_profit": 104208434.99999996,
+      "status": "optimal",
+      "metrics": {
+        "profit": 104208435.0,
+        "capital_years": 393120000.0,
+        "roe": 0.2650804716117216,
+        "irr": 0.30000021491929907,
+        "accepted": true,
+        "flow_sum": 104208435.0
+      },
+      "independent_search": {
+        "profit": 104208435.00000001,
+        "volumes": [
+          3000000000,
+          1000000000,
+          3984000000,
+          15000000
+        ],
+        "upper_bound": 104208435.00000001,
+        "points": 4001,
+        "seconds": 20.557516999993823,
+        "metrics": {
+          "profit": 104208435.0,
+          "capital_years": 393120000.0,
+          "roe": 0.2650804716117216,
+          "irr": 0.30000021491929907,
+          "accepted": true,
+          "flow_sum": 104208435.0
+        }
+      }
+    },
+    "D": {
+      "production_volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ],
+      "production_profit": 415387499.99999994,
+      "status": "optimal",
+      "metrics": {
+        "profit": 415387500.0,
+        "capital_years": 360000000.0,
+        "roe": 1.1538541666666666,
+        "irr": 1.2699476950681388,
+        "accepted": true,
+        "flow_sum": 415387500.0
+      },
+      "independent_search": {
+        "profit": 415387500.0000001,
+        "volumes": [
+          4000000000,
+          500000000,
+          0,
+          3000000000
+        ],
+        "upper_bound": 415387500.0000001,
+        "points": 3001,
+        "seconds": 22.17650280000089,
+        "metrics": {
+          "profit": 415387500.0,
+          "capital_years": 360000000.0,
+          "roe": 1.1538541666666666,
+          "irr": 1.2699476950681388,
+          "accepted": true,
+          "flow_sum": 415387500.0
+        }
+      }
+    }
+  },
+  "stress": [
+    {
+      "deal": "A",
+      "scenario": "demand_minus20pct_issue",
+      "status": "optimal",
+      "profit": 241094002.74999988,
+      "volumes": [
+        11321000000,
+        3200000000,
+        2002000000,
+        3477000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "pd_plus10pct",
+      "status": "optimal",
+      "profit": 121441914.49999993,
+      "volumes": [
+        6000000000,
+        1500000000,
+        2006000000,
+        1546000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "resale_minus10pct",
+      "status": "optimal",
+      "profit": 124429160.49999993,
+      "volumes": [
+        6000000000,
+        1500000000,
+        1801000000,
+        1637000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "rates_plus1pp",
+      "status": "optimal",
+      "profit": 162278832.99999988,
+      "volumes": [
+        6000000000,
+        1500000000,
+        2002000000,
+        2206000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "limit_minus10pct",
+      "status": "optimal",
+      "profit": 126956031.49999997,
+      "volumes": [
+        6000000000,
+        1500000000,
+        2003000000,
+        1636000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "riskweight_plus10pct",
+      "status": "optimal",
+      "profit": 102956035.99999996,
+      "volumes": [
+        6000000000,
+        1500000000,
+        2804000000,
+        855000000
+      ]
+    },
+    {
+      "deal": "A",
+      "scenario": "coupon_minus10bp",
+      "status": "optimal",
+      "profit": 102310718.99999994,
+      "volumes": [
+        6000000000,
+        1500000000,
+        2405000000,
+        1094000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "demand_minus20pct_issue",
+      "status": "optimal",
+      "profit": 95360973.75000003,
+      "volumes": [
+        8858000000,
+        2000000000,
+        3503000000,
+        639000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "pd_plus10pct",
+      "status": "optimal",
+      "profit": 60782998.875000015,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3623000000,
+        26000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "resale_minus10pct",
+      "status": "optimal",
+      "profit": 58567037.25,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3403000000,
+        20000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "rates_plus1pp",
+      "status": "optimal",
+      "profit": 69359478.00000001,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3888000000,
+        42000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "limit_minus10pct",
+      "status": "optimal",
+      "profit": 61236312.00000002,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3628000000,
+        31000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "riskweight_plus10pct",
+      "status": "optimal",
+      "profit": 61008145.35000002,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3637000000,
+        21000000
+      ]
+    },
+    {
+      "deal": "B",
+      "scenario": "coupon_minus10bp",
+      "status": "optimal",
+      "profit": 56526476.0,
+      "volumes": [
+        5000000000,
+        1000000000,
+        3488000000,
+        19000000
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "demand_minus20pct_issue",
+      "status": "optimal",
+      "profit": 135504789.99999997,
+      "volumes": [
+        4000000000,
+        2000000000,
+        2659000000,
+        1341000000
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "pd_plus10pct",
+      "status": "optimal",
+      "profit": 99983137.49999997,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3915000000,
+        0
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "resale_minus10pct",
+      "status": "optimal",
+      "profit": 99505349.99999997,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3724000000,
+        0
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "rates_plus1pp",
+      "status": "optimal",
+      "profit": 115909196.99999999,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3393000000,
+        607000000
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "limit_minus10pct",
+      "status": "optimal",
+      "profit": 96309251.99999996,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3152000000,
+        448000000
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "riskweight_plus10pct",
+      "status": "optimal",
+      "profit": 104145667.49999999,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3995000000,
+        5000000
+      ]
+    },
+    {
+      "deal": "C",
+      "scenario": "coupon_minus10bp",
+      "status": "optimal",
+      "profit": 92965502.99999996,
+      "volumes": [
+        3000000000,
+        1000000000,
+        3759000000,
+        0
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "demand_minus20pct_issue",
+      "status": "optimal",
+      "profit": 418746899.99999994,
+      "volumes": [
+        6112000000,
+        888000000,
+        0,
+        3000000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "pd_plus10pct",
+      "status": "optimal",
+      "profit": 413868749.99999994,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "resale_minus10pct",
+      "status": "optimal",
+      "profit": 415387499.99999994,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "rates_plus1pp",
+      "status": "optimal",
+      "profit": 305587499.99999994,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "limit_minus10pct",
+      "status": "optimal",
+      "profit": 374291250.0,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        2700000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "riskweight_plus10pct",
+      "status": "optimal",
+      "profit": 418627499.99999994,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ]
+    },
+    {
+      "deal": "D",
+      "scenario": "coupon_minus10bp",
+      "status": "optimal",
+      "profit": 404137499.99999994,
+      "volumes": [
+        4000000000,
+        500000000,
+        0,
+        3000000000
+      ]
+    }
+  ],
+  "de_independent": [
+    {
+      "deal": "A",
+      "seed": 301,
+      "profit": 126956031.49999997,
+      "seconds": 7.9438761999990675,
+      "status": "feasible"
+    },
+    {
+      "deal": "A",
+      "seed": 991,
+      "profit": 126956031.49999997,
+      "seconds": 8.136301400001685,
+      "status": "feasible"
+    },
+    {
+      "deal": "A",
+      "seed": 1723,
+      "profit": 126956031.49999997,
+      "seconds": 8.42085919999954,
+      "status": "feasible"
+    },
+    {
+      "deal": "B",
+      "seed": 301,
+      "profit": 61236312.00000002,
+      "seconds": 8.811723300001177,
+      "status": "feasible"
+    },
+    {
+      "deal": "B",
+      "seed": 991,
+      "profit": 61236312.00000002,
+      "seconds": 7.5183603999976185,
+      "status": "feasible"
+    },
+    {
+      "deal": "B",
+      "seed": 1723,
+      "profit": 61236312.00000002,
+      "seconds": 7.9560333999979775,
+      "status": "feasible"
+    },
+    {
+      "deal": "C",
+      "seed": 301,
+      "profit": 104208434.99999996,
+      "seconds": 7.76270349999686,
+      "status": "feasible"
+    },
+    {
+      "deal": "C",
+      "seed": 991,
+      "profit": 104208434.99999996,
+      "seconds": 9.280277699996077,
+      "status": "feasible"
+    },
+    {
+      "deal": "C",
+      "seed": 1723,
+      "profit": 104208434.99999996,
+      "seconds": 7.9262727000023006,
+      "status": "feasible"
+    },
+    {
+      "deal": "D",
+      "seed": 301,
+      "profit": 415387499.99999994,
+      "seconds": 7.104587200003152,
+      "status": "feasible"
+    },
+    {
+      "deal": "D",
+      "seed": 991,
+      "profit": 415387499.99999994,
+      "seconds": 7.203811600003974,
+      "status": "feasible"
+    },
+    {
+      "deal": "D",
+      "seed": 1723,
+      "profit": 415387499.99999994,
+      "seconds": 6.7531096000020625,
+      "status": "feasible"
+    }
+  ],
+  "irr_examples": [
+    {
+      "flows": [
+        -100,
+        230,
+        -132
+      ],
+      "all_real_monthly_irrs": [
+        0.09999999999999942,
+        0.20000000000000062
+      ],
+      "production_status": "nonconventional"
+    },
+    {
+      "flows": [
+        -100,
+        50,
+        -100
+      ],
+      "all_real_monthly_irrs": [],
+      "production_status": "nonconventional"
+    },
+    {
+      "flows": [
+        -100,
+        200,
+        -50,
+        1
+      ],
+      "all_real_monthly_irrs": [
+        -0.9781031013049106,
+        -0.733123838754953,
+        0.7112269400598652
+      ],
+      "production_status": "nonconventional"
+    },
+    {
+      "flows": [
+        -100,
+        0,
+        121
+      ],
+      "all_real_monthly_irrs": [
+        0.10000000000000009
+      ],
+      "production_status": "unique"
+    },
+    {
+      "flows": [
+        -100,
+        -10,
+        121
+      ],
+      "all_real_monthly_irrs": [
+        0.05113577727726182
+      ],
+      "production_status": "unique"
+    },
+    {
+      "flows": [
+        -100,
+        90
+      ],
+      "all_real_monthly_irrs": [
+        -0.10000000000000009
+      ],
+      "production_status": "unique"
+    }
+  ],
+  "timeout_checks": {
+    "milp": "incomplete",
+    "de": "feasible",
+    "de_seconds": 0.47822420000011334
+  },
+  "completed": true
+}

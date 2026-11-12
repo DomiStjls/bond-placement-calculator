@@ -1,0 +1,637 @@
+{
+  "manual": {
+    "1": [
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "1250000.00000",
+        "institutional_rebate": "1125000.000000",
+        "ecosystem_income": "0.00",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "125000.0000000",
+        "tax": "31250.000000000",
+        "net_profit": "93750.000000000",
+        "month_number": 1
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 2
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 8
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 36
+      }
+    ],
+    "2": [
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "1250000.00000",
+        "institutional_rebate": "0.000000",
+        "ecosystem_income": "10000000.00",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "11250000.0000000",
+        "tax": "2812500.000000000",
+        "net_profit": "8437500.000000000",
+        "month_number": 1
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 2
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 8
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 36
+      }
+    ],
+    "3": [
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "1000000000",
+        "opening_capital": "144000000.0000",
+        "closing_capital": "144000000.0000",
+        "placement_fee": "0.00000",
+        "institutional_rebate": "0.000000",
+        "ecosystem_income": "0.00",
+        "resale_income": "0.0000",
+        "coupon_income": "13166666.66666666666666666667",
+        "funding_cost": "11833333.33333333333333333333",
+        "expected_loss": "150000.00000",
+        "capital_income": "1704000.0000000",
+        "profit_before_tax": "2887333.33333333333333333334",
+        "tax": "721833.3333333333333333333350",
+        "net_profit": "2165500.000000000000000000005",
+        "month_number": 1
+      },
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "400000000",
+        "redeemed_principal": "0",
+        "closing_position": "600000000",
+        "opening_capital": "144000000.0000",
+        "closing_capital": "86400000.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "2160000.0000",
+        "coupon_income": "13166666.66666666666666666667",
+        "funding_cost": "11833333.33333333333333333333",
+        "expected_loss": "150000.00000",
+        "capital_income": "1704000.0000000",
+        "profit_before_tax": "5047333.33333333333333333334",
+        "tax": "1261833.333333333333333333335",
+        "net_profit": "3785500.000000000000000000005",
+        "month_number": 2
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 8
+      },
+      {
+        "opening_position": "0",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "0",
+        "opening_capital": "0.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "0.000",
+        "funding_cost": "0.000",
+        "expected_loss": "0.00000",
+        "capital_income": "0E-7",
+        "profit_before_tax": "0E-7",
+        "tax": "0E-9",
+        "net_profit": "0E-9",
+        "month_number": 36
+      }
+    ],
+    "4": [
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "1000000000",
+        "opening_capital": "78000000.0000",
+        "closing_capital": "78000000.0000",
+        "placement_fee": "0.00000",
+        "institutional_rebate": "0.000000",
+        "ecosystem_income": "0.00",
+        "resale_income": "0.0000",
+        "coupon_income": "13166666.66666666666666666667",
+        "funding_cost": "11833333.33333333333333333333",
+        "expected_loss": "150000.00000",
+        "capital_income": "923000.0000000",
+        "profit_before_tax": "2106333.33333333333333333334",
+        "tax": "526583.3333333333333333333350",
+        "net_profit": "1579750.000000000000000000005",
+        "month_number": 1
+      },
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "1000000000",
+        "opening_capital": "78000000.0000",
+        "closing_capital": "78000000.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "13166666.66666666666666666667",
+        "funding_cost": "11833333.33333333333333333333",
+        "expected_loss": "150000.00000",
+        "capital_income": "923000.0000000",
+        "profit_before_tax": "2106333.33333333333333333334",
+        "tax": "526583.3333333333333333333350",
+        "net_profit": "1579750.000000000000000000005",
+        "month_number": 2
+      },
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "0",
+        "redeemed_principal": "0",
+        "closing_position": "1000000000",
+        "opening_capital": "78000000.0000",
+        "closing_capital": "78000000.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "12750000.000",
+        "funding_cost": "11416666.66666666666666666667",
+        "expected_loss": "150000.00000",
+        "capital_income": "890500.0000000",
+        "profit_before_tax": "2073833.33333333333333333333",
+        "tax": "518458.3333333333333333333325",
+        "net_profit": "1555374.999999999999999999998",
+        "month_number": 8
+      },
+      {
+        "opening_position": "1000000000",
+        "sold_principal": "0",
+        "redeemed_principal": "1000000000",
+        "closing_position": "0",
+        "opening_capital": "78000000.0000",
+        "closing_capital": "0.0000",
+        "placement_fee": "0",
+        "institutional_rebate": "0",
+        "ecosystem_income": "0",
+        "resale_income": "0.0000",
+        "coupon_income": "10666666.66666666666666666667",
+        "funding_cost": "9333333.333333333333333333333",
+        "expected_loss": "150000.00000",
+        "capital_income": "728000.0000000",
+        "profit_before_tax": "1911333.333333333333333333337",
+        "tax": "477833.3333333333333333333342",
+        "net_profit": "1433500.000000000000000000003",
+        "month_number": 36
+      }
+    ]
+  },
+  "thresholds": [
+    {
+      "deal": "A",
+      "field": "roe_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "A",
+      "field": "roe_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "A",
+      "field": "roe_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "A",
+      "field": "irr_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "A",
+      "field": "irr_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "A",
+      "field": "irr_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "B",
+      "field": "roe_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "B",
+      "field": "roe_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "B",
+      "field": "roe_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "B",
+      "field": "irr_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "B",
+      "field": "irr_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "B",
+      "field": "irr_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "C",
+      "field": "roe_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "C",
+      "field": "roe_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "C",
+      "field": "roe_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "C",
+      "field": "irr_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "C",
+      "field": "irr_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "C",
+      "field": "irr_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "D",
+      "field": "roe_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "D",
+      "field": "roe_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "D",
+      "field": "roe_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    },
+    {
+      "deal": "D",
+      "field": "irr_threshold",
+      "delta": -1e-08,
+      "accepted": true
+    },
+    {
+      "deal": "D",
+      "field": "irr_threshold",
+      "delta": 0,
+      "accepted": true
+    },
+    {
+      "deal": "D",
+      "field": "irr_threshold",
+      "delta": 1e-08,
+      "accepted": false
+    }
+  ],
+  "old_allocation_stress": [
+    {
+      "deal": "A",
+      "scenario": "PD +1%",
+      "profit": 126880749.875,
+      "capital_years": 479076000.0,
+      "roe": 0.26484472166211626,
+      "irr": 0.3152456664097072,
+      "accepted": false,
+      "flow_sum": 126880749.875
+    },
+    {
+      "deal": "A",
+      "scenario": "resale -1%",
+      "profit": 127085961.5,
+      "capital_years": 479796000.0,
+      "roe": 0.2648749916631235,
+      "irr": 0.31519557768982964,
+      "accepted": false,
+      "flow_sum": 127085961.5
+    },
+    {
+      "deal": "B",
+      "scenario": "PD +1%",
+      "profit": 61225192.5,
+      "capital_years": 231078000.0,
+      "roe": 0.26495465816737207,
+      "irr": 0.3000529227000499,
+      "accepted": false,
+      "flow_sum": 61225192.5
+    },
+    {
+      "deal": "B",
+      "scenario": "resale -1%",
+      "profit": 61509432.0,
+      "capital_years": 232758000.0,
+      "roe": 0.2642634495914211,
+      "irr": 0.29916821241657154,
+      "accepted": false,
+      "flow_sum": 61509432.0
+    },
+    {
+      "deal": "C",
+      "scenario": "PD +1%",
+      "profit": 104134590.0,
+      "capital_years": 393120000.0,
+      "roe": 0.2648926282051282,
+      "irr": 0.29976111755850265,
+      "accepted": false,
+      "flow_sum": 104134590.0
+    },
+    {
+      "deal": "C",
+      "scenario": "resale -1%",
+      "profit": 104850894.0,
+      "capital_years": 396396000.0,
+      "roe": 0.26451047437411074,
+      "irr": 0.29928761130899373,
+      "accepted": false,
+      "flow_sum": 104850894.0
+    },
+    {
+      "deal": "D",
+      "scenario": "PD +1%",
+      "profit": 415235625.0,
+      "capital_years": 360000000.0,
+      "roe": 1.1534322916666666,
+      "irr": 1.2692371898453518,
+      "accepted": true,
+      "flow_sum": 415235625.0
+    },
+    {
+      "deal": "D",
+      "scenario": "resale -1%",
+      "profit": 415387500.0,
+      "capital_years": 360000000.0,
+      "roe": 1.1538541666666666,
+      "irr": 1.2699476950681388,
+      "accepted": true,
+      "flow_sum": 415387500.0
+    }
+  ],
+  "residual": [
+    {
+      "opening_position": "1000000000.0",
+      "sold_principal": "0",
+      "redeemed_principal": "0",
+      "closing_position": "1000000000.0",
+      "opening_capital": "144000000.0000",
+      "closing_capital": "144000000.0000",
+      "placement_fee": "0.00000",
+      "institutional_rebate": "0.000000",
+      "ecosystem_income": "0.00",
+      "resale_income": "0.0000",
+      "coupon_income": "13166666.66666666666666666667",
+      "funding_cost": "11833333.33333333333333333333",
+      "expected_loss": "150000.000000",
+      "capital_income": "1704000.0000000",
+      "profit_before_tax": "2887333.33333333333333333334",
+      "tax": "721833.3333333333333333333350",
+      "net_profit": "2165500.000000000000000000005"
+    },
+    {
+      "opening_position": "1000000000.0",
+      "sold_principal": "123456789",
+      "redeemed_principal": "0",
+      "closing_position": "876543211.0",
+      "opening_capital": "144000000.0000",
+      "closing_capital": "126222222.3840",
+      "placement_fee": "0",
+      "institutional_rebate": "0",
+      "ecosystem_income": "0",
+      "resale_income": "666666.6606",
+      "coupon_income": "13166666.66666666666666666667",
+      "funding_cost": "11833333.33333333333333333333",
+      "expected_loss": "150000.000000",
+      "capital_income": "1704000.0000000",
+      "profit_before_tax": "3553999.99393333333333333334",
+      "tax": "888499.9984833333333333333350",
+      "net_profit": "2665499.995450000000000000005"
+    },
+    {
+      "opening_position": "876543211.0",
+      "sold_principal": "123456789",
+      "redeemed_principal": "753086422.0",
+      "closing_position": "0.0",
+      "opening_capital": "126222222.3840",
+      "closing_capital": "0.0000",
+      "placement_fee": "0",
+      "institutional_rebate": "0",
+      "ecosystem_income": "0",
+      "resale_income": "666666.6606",
+      "coupon_income": "11541152.27816666666666666667",
+      "funding_cost": "10372427.99683333333333333333",
+      "expected_loss": "131481.481650",
+      "capital_income": "1493629.6315440",
+      "profit_before_tax": "3197539.09182733333333333334",
+      "tax": "799384.7729568333333333333350",
+      "net_profit": "2398154.318870500000000000005"
+    }
+  ],
+  "unique_nonconventional": {
+    "flows": [
+      -100,
+      200,
+      -1000,
+      1000
+    ],
+    "positive_real_discount_roots": [
+      0.9012018586443574
+    ],
+    "status": "nonconventional"
+  },
+  "invalid_inputs_rejected": [
+    "negative_spread",
+    "negative_rate",
+    "capital_above_position",
+    "zero_step"
+  ]
+}
