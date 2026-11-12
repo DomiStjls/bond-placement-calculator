@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "rate_format": "decimal",
+  "system": {
+    "tax_rate": 0.25,
+    "funding_spread": 0.002,
+    "loss_given_default": 0.45,
+    "capital_ratio": 0.12,
+    "resale_risk_weight": 1.2,
+    "bank_placement_fee_share": 0.5,
+    "institutional_rebate_share": 0.9,
+    "retail_ecosystem_rate": 0.01,
+    "resale_income_rate": 0.0054,
+    "own_balance_placement_fee_rate": 0.0,
+    "resale_start_month": 2,
+    "allocation_step": 1000000,
+    "irr_threshold": 0.3,
+    "roe_threshold": 0.265,
+    "key_rates": [
+      {"effective_from": "2026-12-01", "annual_rate": 0.14},
+      {"effective_from": "2027-07-01", "annual_rate": 0.135},
+      {"effective_from": "2028-01-01", "annual_rate": 0.12},
+      {"effective_from": "2029-01-01", "annual_rate": 0.11}
+    ]
+  }
+}

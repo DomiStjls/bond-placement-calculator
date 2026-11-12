@@ -1,0 +1,446 @@
+{
+  "scope": "profit only, NO IRR/ROE thresholds",
+  "scipy": "1.17.0",
+  "experiments": [
+    {
+      "deal": "Уралмет",
+      "prep_seconds": 0.06653299999743467,
+      "results": [
+        {
+          "method": "piecewise_MILP",
+          "seconds": 0.14392619999853196,
+          "profit_million": 444.78674999999976,
+          "allocation_million": [
+            6000.0,
+            1500.0,
+            0.0,
+            8000.0
+          ],
+          "intervals": 20,
+          "max_mip_gap": 0.0,
+          "gap_to_milp_percent": 1.2779926304191399e-14
+        },
+        {
+          "method": "DE_0",
+          "seconds": 1.2002012000011746,
+          "profit_million": 444.78674999999976,
+          "allocation_million": [
+            6000.0,
+            1500.0,
+            0.0,
+            8000.0
+          ],
+          "nfev": 3374,
+          "success": true,
+          "gap_to_milp_percent": 1.2779926304191399e-14
+        },
+        {
+          "method": "DE_1",
+          "seconds": 1.3324497000066913,
+          "profit_million": 444.78674999999976,
+          "allocation_million": [
+            6000.0,
+            1500.0,
+            0.0,
+            8000.0
+          ],
+          "nfev": 3664,
+          "success": true,
+          "gap_to_milp_percent": 1.2779926304191399e-14
+        },
+        {
+          "method": "DE_2",
+          "seconds": 1.2754341999971075,
+          "profit_million": 444.78674999999976,
+          "allocation_million": [
+            6000.0,
+            1500.0,
+            0.0,
+            8000.0
+          ],
+          "nfev": 3629,
+          "success": true,
+          "gap_to_milp_percent": 1.2779926304191399e-14
+        },
+        {
+          "method": "SLSQP_10_starts_floor",
+          "seconds": 0.3171474999981001,
+          "profit_million": 444.78674999999976,
+          "allocation_million": [
+            6000.0,
+            1500.0,
+            0.0,
+            8000.0
+          ],
+          "successful_runs": 10,
+          "gap_to_milp_percent": 1.2779926304191399e-14
+        },
+        {
+          "method": "random_5000",
+          "seconds": 0.372471199996653,
+          "profit_million": 436.67919399999977,
+          "allocation_million": [
+            3790.0,
+            823.0,
+            35.0,
+            7954.0
+          ],
+          "feasible_samples": 2516,
+          "gap_to_milp_percent": 1.8227962051477586
+        }
+      ]
+    },
+    {
+      "deal": "Нефтегаз Восток",
+      "prep_seconds": 0.05790759999945294,
+      "results": [
+        {
+          "method": "piecewise_MILP",
+          "seconds": 0.1581707000004826,
+          "profit_million": 704.5650000000003,
+          "allocation_million": [
+            0.0,
+            0.0,
+            0.0,
+            15000.0
+          ],
+          "intervals": 30,
+          "max_mip_gap": 0.0,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_0",
+          "seconds": 2.163518999994267,
+          "profit_million": 704.5650000000003,
+          "allocation_million": [
+            0.0,
+            0.0,
+            0.0,
+            15000.0
+          ],
+          "nfev": 3960,
+          "success": false,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_1",
+          "seconds": 1.7057427000036114,
+          "profit_million": 704.5650000000003,
+          "allocation_million": [
+            0.0,
+            0.0,
+            0.0,
+            15000.0
+          ],
+          "nfev": 3295,
+          "success": true,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_2",
+          "seconds": 1.9845126000000164,
+          "profit_million": 704.5650000000003,
+          "allocation_million": [
+            0.0,
+            0.0,
+            0.0,
+            15000.0
+          ],
+          "nfev": 3852,
+          "success": true,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "SLSQP_10_starts_floor",
+          "seconds": 0.29245760000048904,
+          "profit_million": 704.5650000000003,
+          "allocation_million": [
+            0.0,
+            0.0,
+            0.0,
+            15000.0
+          ],
+          "successful_runs": 10,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "random_5000",
+          "seconds": 0.33366750000277534,
+          "profit_million": 650.3883127500001,
+          "allocation_million": [
+            225.0,
+            716.0,
+            73.0,
+            13711.0
+          ],
+          "feasible_samples": 1612,
+          "gap_to_milp_percent": 7.689381001043224
+        }
+      ]
+    },
+    {
+      "deal": "Аурум Майнинг",
+      "prep_seconds": 0.05213440000079572,
+      "results": [
+        {
+          "method": "piecewise_MILP",
+          "seconds": 0.07263959999545477,
+          "profit_million": 214.10249999999996,
+          "allocation_million": [
+            3000.0,
+            1000.0,
+            0.0,
+            4000.0
+          ],
+          "intervals": 14,
+          "max_mip_gap": 0.0,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_0",
+          "seconds": 1.3193418000009842,
+          "profit_million": 214.10249999999996,
+          "allocation_million": [
+            3000.0,
+            1000.0,
+            0.0,
+            4000.0
+          ],
+          "nfev": 3810,
+          "success": true,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_1",
+          "seconds": 1.2382789000039338,
+          "profit_million": 214.10249999999996,
+          "allocation_million": [
+            3000.0,
+            1000.0,
+            0.0,
+            4000.0
+          ],
+          "nfev": 3559,
+          "success": true,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "DE_2",
+          "seconds": 1.3741554000007454,
+          "profit_million": 214.10249999999996,
+          "allocation_million": [
+            3000.0,
+            1000.0,
+            0.0,
+            4000.0
+          ],
+          "nfev": 3889,
+          "success": true,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "SLSQP_10_starts_floor",
+          "seconds": 0.2989949000038905,
+          "profit_million": 214.10249999999996,
+          "allocation_million": [
+            3000.0,
+            1000.0,
+            0.0,
+            4000.0
+          ],
+          "successful_runs": 10,
+          "gap_to_milp_percent": 0.0
+        },
+        {
+          "method": "random_5000",
+          "seconds": 0.36962140000105137,
+          "profit_million": 209.05153449999992,
+          "allocation_million": [
+            1895.0,
+            548.0,
+            17.0,
+            3977.0
+          ],
+          "feasible_samples": 2517,
+          "gap_to_milp_percent": 2.359134293154002
+        }
+      ]
+    },
+    {
+      "deal": "Город N",
+      "prep_seconds": 0.10063539999828208,
+      "results": [
+        {
+          "method": "piecewise_MILP",
+          "seconds": 0.1065593999956036,
+          "profit_million": 415.38749999999993,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            3000.0
+          ],
+          "intervals": 15,
+          "max_mip_gap": 0.0,
+          "gap_to_milp_percent": -2.736886346402241e-14
+        },
+        {
+          "method": "DE_0",
+          "seconds": 1.3488444999966305,
+          "profit_million": 415.38749999999993,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            3000.0
+          ],
+          "nfev": 3659,
+          "success": true,
+          "gap_to_milp_percent": -2.736886346402241e-14
+        },
+        {
+          "method": "DE_1",
+          "seconds": 1.2525614999976824,
+          "profit_million": 415.38749999999993,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            3000.0
+          ],
+          "nfev": 3674,
+          "success": true,
+          "gap_to_milp_percent": -2.736886346402241e-14
+        },
+        {
+          "method": "DE_2",
+          "seconds": 1.2408555000001797,
+          "profit_million": 415.38749999999993,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            3000.0
+          ],
+          "nfev": 3534,
+          "success": true,
+          "gap_to_milp_percent": -2.736886346402241e-14
+        },
+        {
+          "method": "SLSQP_10_starts_floor",
+          "seconds": 0.2930068999994546,
+          "profit_million": 415.38749999999993,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            3000.0
+          ],
+          "successful_runs": 10,
+          "gap_to_milp_percent": -2.736886346402241e-14
+        },
+        {
+          "method": "random_5000",
+          "seconds": 0.3796050000019022,
+          "profit_million": 411.1884717499999,
+          "allocation_million": [
+            2526.0,
+            274.0,
+            13.0,
+            2983.0
+          ],
+          "feasible_samples": 2517,
+          "gap_to_milp_percent": 1.010870151364669
+        }
+      ]
+    },
+    {
+      "deal": "Stress fixed coupon 8%",
+      "prep_seconds": 0.10092150000127731,
+      "results": [
+        {
+          "method": "piecewise_MILP",
+          "seconds": 0.08053840000502532,
+          "profit_million": 4.425,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            0.0
+          ],
+          "intervals": 15,
+          "max_mip_gap": 0.0,
+          "gap_to_milp_percent": 2.007182869378814e-14
+        },
+        {
+          "method": "DE_0",
+          "seconds": 1.019575900005293,
+          "profit_million": 4.425,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            0.0
+          ],
+          "nfev": 3634,
+          "success": true,
+          "gap_to_milp_percent": 2.007182869378814e-14
+        },
+        {
+          "method": "DE_1",
+          "seconds": 0.9370386999944458,
+          "profit_million": 4.425,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            0.0
+          ],
+          "nfev": 3188,
+          "success": true,
+          "gap_to_milp_percent": 2.007182869378814e-14
+        },
+        {
+          "method": "DE_2",
+          "seconds": 1.2051580000043032,
+          "profit_million": 4.425,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            0.0
+          ],
+          "nfev": 3824,
+          "success": true,
+          "gap_to_milp_percent": 2.007182869378814e-14
+        },
+        {
+          "method": "SLSQP_10_starts_floor",
+          "seconds": 0.3522242000035476,
+          "profit_million": 4.425,
+          "allocation_million": [
+            4000.0,
+            500.0,
+            0.0,
+            0.0
+          ],
+          "successful_runs": 10,
+          "gap_to_milp_percent": 2.007182869378814e-14
+        },
+        {
+          "method": "random_5000",
+          "seconds": 0.3739363999993657,
+          "profit_million": 2.4174575,
+          "allocation_million": [
+            1668.0,
+            289.0,
+            70.0,
+            0.0
+          ],
+          "feasible_samples": 2517,
+          "gap_to_milp_percent": 45.368192090395496
+        }
+      ]
+    }
+  ]
+}

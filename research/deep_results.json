@@ -1,0 +1,234 @@
+[
+  {
+    "deal": "Уралмет",
+    "milp_seconds": 0.37323140000080457,
+    "deep_seconds": 41.74089459999959,
+    "milp_status": "optimal",
+    "deep_status": "feasible",
+    "milp_profit": 126956031.49999997,
+    "deep_profit": 126956031.49999997,
+    "milp_volumes": [
+      6000000000,
+      1500000000,
+      2003000000,
+      1636000000
+    ],
+    "deep_volumes": [
+      6000000000,
+      1500000000,
+      2003000000,
+      1636000000
+    ],
+    "deep_roe": 0.26500186087384875,
+    "deep_irr": 0.31545078428542633,
+    "runs": [
+      {
+        "seed": 42,
+        "seconds": 9.491256000001158,
+        "evaluations": 4803,
+        "generations": 155,
+        "converged": true,
+        "verified_profit": 126956031.49999997
+      },
+      {
+        "seed": 43,
+        "seconds": 10.589347200002521,
+        "evaluations": 4657,
+        "generations": 211,
+        "converged": true,
+        "verified_profit": 126956031.49999997
+      },
+      {
+        "seed": 44,
+        "seconds": 11.060867299995152,
+        "evaluations": 4733,
+        "generations": 207,
+        "converged": true,
+        "verified_profit": 126956031.49999997
+      },
+      {
+        "seed": 45,
+        "seconds": 10.571867299993755,
+        "evaluations": 4928,
+        "generations": 210,
+        "converged": true,
+        "verified_profit": 126956031.49999997
+      }
+    ],
+    "profit_gap": 0.0
+  },
+  {
+    "deal": "Нефтегаз Восток",
+    "milp_seconds": 0.4727329000015743,
+    "deep_seconds": 35.51751389999845,
+    "milp_status": "optimal",
+    "deep_status": "feasible",
+    "milp_profit": 61236312.00000002,
+    "deep_profit": 61236312.00000002,
+    "milp_volumes": [
+      5000000000,
+      1000000000,
+      3628000000,
+      31000000
+    ],
+    "deep_volumes": [
+      5000000000,
+      1000000000,
+      3628000000,
+      31000000
+    ],
+    "deep_roe": 0.2650027782826579,
+    "deep_irr": 0.3001137877427865,
+    "runs": [
+      {
+        "seed": 42,
+        "seconds": 9.504565100003674,
+        "evaluations": 5042,
+        "generations": 180,
+        "converged": true,
+        "verified_profit": 61236312.00000002
+      },
+      {
+        "seed": 43,
+        "seconds": 10.012554799999634,
+        "evaluations": 5149,
+        "generations": 204,
+        "converged": true,
+        "verified_profit": 61236312.00000002
+      },
+      {
+        "seed": 44,
+        "seconds": 7.93741329999466,
+        "evaluations": 4633,
+        "generations": 188,
+        "converged": true,
+        "verified_profit": 61236312.00000002
+      },
+      {
+        "seed": 45,
+        "seconds": 8.058961500006262,
+        "evaluations": 4636,
+        "generations": 181,
+        "converged": true,
+        "verified_profit": 61236312.00000002
+      }
+    ],
+    "profit_gap": 0.0
+  },
+  {
+    "deal": "Аурум Майнинг",
+    "milp_seconds": 0.2516752000010456,
+    "deep_seconds": 35.189991599996574,
+    "milp_status": "optimal",
+    "deep_status": "feasible",
+    "milp_profit": 104208434.99999996,
+    "deep_profit": 104208434.99999996,
+    "milp_volumes": [
+      3000000000,
+      1000000000,
+      3984000000,
+      15000000
+    ],
+    "deep_volumes": [
+      3000000000,
+      1000000000,
+      3984000000,
+      15000000
+    ],
+    "deep_roe": 0.2650804716117215,
+    "deep_irr": 0.30000021491929907,
+    "runs": [
+      {
+        "seed": 42,
+        "seconds": 8.462261699998635,
+        "evaluations": 7002,
+        "generations": 178,
+        "converged": true,
+        "verified_profit": 104208434.99999996
+      },
+      {
+        "seed": 43,
+        "seconds": 9.760635900005582,
+        "evaluations": 7129,
+        "generations": 220,
+        "converged": true,
+        "verified_profit": 104208434.99999996
+      },
+      {
+        "seed": 44,
+        "seconds": 6.9446547999978065,
+        "evaluations": 6144,
+        "generations": 156,
+        "converged": true,
+        "verified_profit": 104208434.99999996
+      },
+      {
+        "seed": 45,
+        "seconds": 10.019860400003381,
+        "evaluations": 6515,
+        "generations": 221,
+        "converged": true,
+        "verified_profit": 104208434.99999996
+      }
+    ],
+    "profit_gap": 0.0
+  },
+  {
+    "deal": "Город N",
+    "milp_seconds": 0.3388129000013578,
+    "deep_seconds": 29.880193600001803,
+    "milp_status": "optimal",
+    "deep_status": "feasible",
+    "milp_profit": 415387499.99999994,
+    "deep_profit": 415387499.99999994,
+    "milp_volumes": [
+      4000000000,
+      500000000,
+      0,
+      3000000000
+    ],
+    "deep_volumes": [
+      4000000000,
+      500000000,
+      0,
+      3000000000
+    ],
+    "deep_roe": 1.1538541666666664,
+    "deep_irr": 1.2699476950681392,
+    "runs": [
+      {
+        "seed": 42,
+        "seconds": 6.604061300000467,
+        "evaluations": 7349,
+        "generations": 106,
+        "converged": true,
+        "verified_profit": 415387499.99999994
+      },
+      {
+        "seed": 43,
+        "seconds": 8.061689100002695,
+        "evaluations": 10283,
+        "generations": 144,
+        "converged": true,
+        "verified_profit": 415387499.99999994
+      },
+      {
+        "seed": 44,
+        "seconds": 7.9211188000044785,
+        "evaluations": 9805,
+        "generations": 146,
+        "converged": true,
+        "verified_profit": 415387499.99999994
+      },
+      {
+        "seed": 45,
+        "seconds": 7.286062699997274,
+        "evaluations": 8927,
+        "generations": 137,
+        "converged": true,
+        "verified_profit": 415387499.99999994
+      }
+    ],
+    "profit_gap": 0.0
+  }
+]

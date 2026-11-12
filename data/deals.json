@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "money_unit": "RUB",
+  "rate_format": "decimal",
+  "deals": [
+    {
+      "id": "A", "name": "Уралмет", "rating": "AA",
+      "issue_volume": 20000000000, "term_months": 36,
+      "placement_month": "2026-12-01",
+      "coupon_type": "floating", "coupon_spread": 0.018, "fixed_coupon_rate": null,
+      "organizer_fee_rate": 0.0025, "annual_pd": 0.004,
+      "borrower_risk_weight": 0.65, "free_limit": 8000000000,
+      "institutional_demand": 6000000000, "retail_demand": 1500000000,
+      "monthly_resale_volume": 400000000
+    },
+    {
+      "id": "B", "name": "Нефтегаз Восток", "rating": "AAA",
+      "issue_volume": 15000000000, "term_months": 36,
+      "placement_month": "2026-12-01",
+      "coupon_type": "floating", "coupon_spread": 0.014, "fixed_coupon_rate": null,
+      "organizer_fee_rate": 0.0015, "annual_pd": 0.002,
+      "borrower_risk_weight": 0.65, "free_limit": 30000000000,
+      "institutional_demand": 5000000000, "retail_demand": 1000000000,
+      "monthly_resale_volume": 500000000
+    },
+    {
+      "id": "C", "name": "Аурум Майнинг", "rating": "AA-",
+      "issue_volume": 10000000000, "term_months": 24,
+      "placement_month": "2026-12-01",
+      "coupon_type": "floating", "coupon_spread": 0.024, "fixed_coupon_rate": null,
+      "organizer_fee_rate": 0.003, "annual_pd": 0.008,
+      "borrower_risk_weight": 1.0, "free_limit": 4000000000,
+      "institutional_demand": 3000000000, "retail_demand": 1000000000,
+      "monthly_resale_volume": 300000000
+    },
+    {
+      "id": "D", "name": "Город N", "rating": "AA",
+      "issue_volume": 10000000000, "term_months": 60,
+      "placement_month": "2026-12-01",
+      "coupon_type": "fixed", "coupon_spread": null, "fixed_coupon_rate": 0.155,
+      "organizer_fee_rate": 0.002, "annual_pd": 0.003,
+      "borrower_risk_weight": 0.2, "free_limit": 3000000000,
+      "institutional_demand": 4000000000, "retail_demand": 500000000,
+      "monthly_resale_volume": 200000000
+    }
+  ]
+}
