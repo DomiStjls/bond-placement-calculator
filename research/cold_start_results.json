@@ -1,0 +1,18 @@
+{
+  "directory": "D:\\Disk_D\\own\\Python\\alyouwant\\tmp\\bond cold start a4p_joye",
+  "completed": true,
+  "launches": [
+    {
+      "number": 1,
+      "seconds": 123.04700000000003,
+      "health": "ok"
+    },
+    {
+      "number": 2,
+      "seconds": 2.8129999999998745,
+      "health": "ok"
+    }
+  ],
+  "ui_calculation_and_export": true,
+  "tests": "..................................\n----------------------------------------------------------------------\nRan 34 tests in 9.179s\n\nOK\n"
+}

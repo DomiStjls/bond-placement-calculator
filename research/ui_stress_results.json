@@ -1,0 +1,121 @@
+{
+  "completed": true,
+  "cases": [
+    {
+      "case": "base_A",
+      "passed": true
+    },
+    {
+      "case": "base_B",
+      "passed": true
+    },
+    {
+      "case": "base_C",
+      "passed": true
+    },
+    {
+      "case": "base_D",
+      "passed": true
+    },
+    {
+      "case": "zero_issue",
+      "passed": true
+    },
+    {
+      "case": "below_step",
+      "passed": true
+    },
+    {
+      "case": "zero_limit",
+      "passed": true
+    },
+    {
+      "case": "zero_demand",
+      "passed": true
+    },
+    {
+      "case": "no_sales",
+      "passed": true
+    },
+    {
+      "case": "one_month",
+      "passed": true
+    },
+    {
+      "case": "long_term",
+      "passed": true
+    },
+    {
+      "case": "tax_100",
+      "passed": true
+    },
+    {
+      "case": "no_capital",
+      "passed": true
+    },
+    {
+      "case": "high_thresholds",
+      "passed": true
+    },
+    {
+      "case": "fractional_pace",
+      "passed": true
+    },
+    {
+      "case": "small_step",
+      "passed": true
+    },
+    {
+      "case": "invalid_pd",
+      "passed": true
+    },
+    {
+      "case": "capital_above_position",
+      "passed": true
+    },
+    {
+      "case": "bad_date",
+      "passed": true
+    },
+    {
+      "case": "uncovered_rate_date",
+      "passed": true
+    },
+    {
+      "case": "demand_down",
+      "passed": true
+    },
+    {
+      "case": "demand_up",
+      "passed": true
+    },
+    {
+      "case": "invalid_scenario",
+      "passed": true
+    },
+    {
+      "case": "de_short",
+      "passed": true
+    },
+    {
+      "case": "stale_result",
+      "passed": true
+    },
+    {
+      "case": "stale_result_label",
+      "passed": true
+    },
+    {
+      "case": "solver_failure",
+      "passed": true
+    },
+    {
+      "case": "diagnostics_failure",
+      "passed": true
+    },
+    {
+      "case": "export_failure",
+      "passed": true
+    }
+  ]
+}

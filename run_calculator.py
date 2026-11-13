@@ -22,8 +22,9 @@ def main():
         print('Installing dependencies. Internet is required for the first launch...', flush=True)
         subprocess.run([str(python), '-m', 'pip', 'install', '-r', str(requirement_file)], cwd=root, check=True)
         stamp.write_text(digest)
-    print('Opening calculator. Keep this window open; Ctrl+C stops the server.', flush=True)
-    subprocess.run([str(python), '-m', 'streamlit', 'run', str(root / 'app.py'), '--server.headless=false'], cwd=root, check=True)
+    print('Starting calculator. Open the Local URL below in your browser. Ctrl+C stops the server.', flush=True)
+    # Headless mode also disables Streamlit's first-run interactive email prompt.
+    subprocess.run([str(python), '-m', 'streamlit', 'run', str(root / 'app.py'), '--server.headless=true'], cwd=root, check=True)
 
 
 if __name__ == '__main__':

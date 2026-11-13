@@ -8,6 +8,7 @@ from scipy.optimize import differential_evolution, NonlinearConstraint
 from .models import Deal, SystemParameters, add_months
 from .channels import AllocationResult, calculate_allocation
 from .returns import ReturnMetrics, calculate_returns
+from .selection import better, better_values
 
 
 @dataclass(frozen=True)
@@ -117,19 +118,25 @@ def optimize_deep(d: Deal,s: SystemParameters,*,runs:int=4,seed:int=42,
         run_best=None
         for x in candidates:
             c=verified(np.rint(x))
-            if c and (run_best is None or c[1].net_profit>run_best[1].net_profit):run_best=c
+            if c and better(c,run_best):run_best=c
         # Окрестность из 3^4 точек; не использует MILP.
         if run_best:
             x=np.array(run_best[0])//e.unit
             for _ in range(12):
                 choices=[x+delta for delta in product((-1,0,1),repeat=4)]
                 choices=[v for v in choices if np.all(v>=0) and np.all(v<=e.upper) and np.all(e.constraints(v)>=0)]
-                next_x=max(choices,key=lambda v:-e.objective(v)) if choices else x
-                if e.objective(next_x)>=e.objective(x)-1e-12:break
+                next_x=x
+                net,capital,_=e.details(x)
+                score=(net.sum()*e.unit,capital.sum()*e.unit/12)
+                for v in choices:
+                    net,capital,_=e.details(v)
+                    new_score=(net.sum()*e.unit,capital.sum()*e.unit/12)
+                    if better_values(*new_score,*score):next_x=v;score=new_score
+                if np.array_equal(next_x,x):break
                 x=next_x
             c=verified(x)
-            if c and c[1].net_profit>run_best[1].net_profit:run_best=c
-            if best is None or run_best[1].net_profit>best[1].net_profit:best=run_best
+            if c and better(c,run_best):run_best=c
+            if better(run_best,best):best=run_best
         history.append(DeepRun(seed+run,perf_counter()-t,int(res.nfev),int(res.nit),
             bool(res.success),run_best[1].net_profit if run_best else None))
     return DeepResult(*(best if best else (None,None,None)),

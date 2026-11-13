@@ -83,7 +83,7 @@ def calculate_returns(allocation: AllocationResult, system: SystemParameters) ->
     monthly_roe = tuple(12*m.net_profit/m.opening_capital if m.opening_capital > 0 else None for m in months)
     warnings = []
     if months[0].placement_fee - months[0].institutional_rebate + months[0].ecosystem_income > 0:
-        warnings.append("В первом месяце есть разовый доход от размещения; общий ROE включает его. Смотрите помесячный профиль.")
+        warnings.append("Доход от размещения поступает один раз, в первом месяце. Он включён в общую прибыль и ROE.")
     share = months[0].net_profit/profit if profit > 0 else None
     if capital_years == 0:
         accepted = profit > 0
@@ -96,6 +96,6 @@ def calculate_returns(allocation: AllocationResult, system: SystemParameters) ->
     accepted = profit > 0 and roe_ok and irr_ok is True
     status = "accepted" if accepted else ("irr_requires_review" if irr_ok is None else "thresholds_failed")
     if irr.status == "nonconventional":
-        warnings.append("Несколько смен знака денежных потоков: проверка IRR требует отдельного анализа. NPV не заменяет её автоматически.")
+        warnings.append("Вложения и поступления чередуются. Для такого денежного потока IRR нужно проверить отдельно.")
     return ReturnMetrics(profit,capital_years,roe,monthly_roe,irr,flows,npv,roe_ok,irr_ok,
                          accepted,status,share,tuple(warnings))

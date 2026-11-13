@@ -224,7 +224,7 @@
         ],
         "upper_bound": 126956031.49999999,
         "points": 8001,
-        "seconds": 48.85012660000211,
+        "seconds": 39.4633775999996,
         "metrics": {
           "profit": 126956031.5,
           "capital_years": 479076000.0,
@@ -262,7 +262,7 @@
         ],
         "upper_bound": 61236312.000000015,
         "points": 15001,
-        "seconds": 79.18211069999961,
+        "seconds": 71.19036849999975,
         "metrics": {
           "profit": 61236312.0,
           "capital_years": 231078000.0,
@@ -300,7 +300,7 @@
         ],
         "upper_bound": 104208435.00000001,
         "points": 4001,
-        "seconds": 20.557516999993823,
+        "seconds": 16.3129985999999,
         "metrics": {
           "profit": 104208435.0,
           "capital_years": 393120000.0,
@@ -338,7 +338,7 @@
         ],
         "upper_bound": 415387500.0000001,
         "points": 3001,
-        "seconds": 22.17650280000089,
+        "seconds": 18.448758999999882,
         "metrics": {
           "profit": 415387500.0,
           "capital_years": 360000000.0,
@@ -693,84 +693,84 @@
       "deal": "A",
       "seed": 301,
       "profit": 126956031.49999997,
-      "seconds": 7.9438761999990675,
+      "seconds": 8.004340899999988,
       "status": "feasible"
     },
     {
       "deal": "A",
       "seed": 991,
       "profit": 126956031.49999997,
-      "seconds": 8.136301400001685,
+      "seconds": 7.0224012999997285,
       "status": "feasible"
     },
     {
       "deal": "A",
       "seed": 1723,
       "profit": 126956031.49999997,
-      "seconds": 8.42085919999954,
+      "seconds": 8.194116699999995,
       "status": "feasible"
     },
     {
       "deal": "B",
       "seed": 301,
       "profit": 61236312.00000002,
-      "seconds": 8.811723300001177,
+      "seconds": 8.779744099999789,
       "status": "feasible"
     },
     {
       "deal": "B",
       "seed": 991,
       "profit": 61236312.00000002,
-      "seconds": 7.5183603999976185,
+      "seconds": 8.250346900000295,
       "status": "feasible"
     },
     {
       "deal": "B",
       "seed": 1723,
       "profit": 61236312.00000002,
-      "seconds": 7.9560333999979775,
+      "seconds": 7.556504299999688,
       "status": "feasible"
     },
     {
       "deal": "C",
       "seed": 301,
       "profit": 104208434.99999996,
-      "seconds": 7.76270349999686,
+      "seconds": 7.057801799999652,
       "status": "feasible"
     },
     {
       "deal": "C",
       "seed": 991,
       "profit": 104208434.99999996,
-      "seconds": 9.280277699996077,
+      "seconds": 8.53062779999982,
       "status": "feasible"
     },
     {
       "deal": "C",
       "seed": 1723,
       "profit": 104208434.99999996,
-      "seconds": 7.9262727000023006,
+      "seconds": 7.573480499999732,
       "status": "feasible"
     },
     {
       "deal": "D",
       "seed": 301,
       "profit": 415387499.99999994,
-      "seconds": 7.104587200003152,
+      "seconds": 6.082862299999761,
       "status": "feasible"
     },
     {
       "deal": "D",
       "seed": 991,
       "profit": 415387499.99999994,
-      "seconds": 7.203811600003974,
+      "seconds": 6.233941099999811,
       "status": "feasible"
     },
     {
       "deal": "D",
       "seed": 1723,
       "profit": 415387499.99999994,
-      "seconds": 6.7531096000020625,
+      "seconds": 5.723486200000025,
       "status": "feasible"
     }
   ],
@@ -846,7 +846,7 @@
   "timeout_checks": {
     "milp": "incomplete",
     "de": "feasible",
-    "de_seconds": 0.47822420000011334
+    "de_seconds": 0.41419089999999414
   },
   "completed": true
 }

@@ -11,6 +11,7 @@ from scipy.optimize import Bounds, LinearConstraint, milp
 from .models import Deal, SystemParameters, add_months
 from .channels import AllocationResult, calculate_allocation
 from .returns import ReturnMetrics, calculate_returns
+from .selection import better, profit_tolerance
 
 
 @dataclass(frozen=True)
@@ -26,6 +27,7 @@ class OptimizationResult:
     solved_intervals: int
     total_intervals: int
     warnings: tuple[str, ...]
+    capital_optimality_proven: bool = False
 
 
 def optimize_milp(deal: Deal, system: SystemParameters, *, time_limit: float = 15.) -> OptimizationResult:
@@ -91,6 +93,7 @@ def optimize_milp(deal: Deal, system: SystemParameters, *, time_limit: float = 1
     # NPV = discount @ profit + capital_coeff @ K_begin.
     capital_coeff = np.r_[discount[0]-1, np.diff(discount)]
     all_solved = True
+    domains = []
     for lo,hi,capital_free in intervals:
         remaining_time = time_limit-(perf_counter()-started)
         if remaining_time <= 0:
@@ -129,18 +132,21 @@ def optimize_milp(deal: Deal, system: SystemParameters, *, time_limit: float = 1
         if res.status != 0: all_solved=False
         bound=getattr(res,'mip_dual_bound',None)
         upper_bounds.append(-float(bound)*unit if bound is not None and np.isfinite(bound) else float('inf'))
+        domains.append((np.vstack(matrices).copy(),np.concatenate(rhs).copy(),
+                        low.copy(),high.copy(),K.sum(axis=0).copy()/12,
+                        float(k0.sum()/12),upper_bounds[-1]))
         if res.x is None: continue
         x=np.rint(res.x[:4])
         try:
             candidate=evaluate(x)
         except ValueError:
-            warnings.append("Численный кандидат нарушил ограничения после округления; отброшен.")
+            warnings.append("Один из вариантов нарушил ограничения после округления объёмов и был исключён.")
             continue
         if candidate[2].accepted:
-            if best is None or candidate[1].net_profit > best[1].net_profit:
+            if better(candidate,best):
                 best=candidate
         elif candidate[2].status == 'irr_requires_review':
-            warnings.append("Кандидат MILP имеет неопределённую/нетипичную IRR; он не допущен автоматически.")
+            warnings.append("Один из вариантов исключён: его IRR требует отдельной проверки.")
     upper = max([0.]+upper_bounds) if all_solved and checked==len(intervals) else float('inf')
     if best is not None: upper=max(upper,best[1].net_profit)
     gap=max(0.,upper-best[1].net_profit) if best is not None and np.isfinite(upper) else None
@@ -148,6 +154,50 @@ def optimize_milp(deal: Deal, system: SystemParameters, *, time_limit: float = 1
     proven=bool(best and gap is not None and gap <= max(1.,abs(best[1].net_profit)*1e-9))
     no_solution=best is None and all_solved and checked==len(intervals) and upper<=0
     status='optimal' if proven else ('no_acceptable_allocation' if no_solution else 'incomplete')
-    if status=='incomplete': warnings.append("Оптимальность не подтверждена: лимит времени, численные допуски или непроверенная IRR. Возвращён только проверенный допустимый кандидат, если он найден.")
+    # Second pass: keep the primary optimum fixed, minimize capital-years.
+    # A small weighted penalty would risk sacrificing profit and is not used.
+    capital_proven = False
+    if proven:
+        target = best[1].net_profit
+        tolerance = profit_tolerance(target)
+        complete = True
+        for matrix,rhs,low,high,capital,offset,bound in domains:
+            if bound < target-tolerance:
+                continue
+            remaining_time = time_limit-(perf_counter()-started)
+            if remaining_time <= 0:
+                complete = False
+                break
+            constraint = np.vstack([matrix,np.r_[np.zeros(4),-np.ones(n)]])
+            secondary = milp(np.r_[capital,np.zeros(n)],
+                integrality=np.r_[np.ones(4),np.zeros(n)],bounds=Bounds(low,high),
+                constraints=LinearConstraint(constraint,-np.inf,np.r_[rhs,-target/unit]),
+                options={"mip_rel_gap":0.,"time_limit":remaining_time})
+            if secondary.status == 2:
+                # Near-tied interval may be infeasible at the exact target.
+                continue
+            if secondary.status != 0:
+                complete = False
+            if secondary.x is None:
+                complete = False
+                continue
+            try:
+                candidate = evaluate(np.rint(secondary.x[:4]))
+            except ValueError:
+                complete = False
+                continue
+            if not candidate[2].accepted or abs(candidate[1].net_profit-target)>tolerance:
+                complete = False
+                continue
+            if better(candidate,best):
+                best = candidate
+            dual = getattr(secondary,'mip_dual_bound',None)
+            if dual is None or candidate[2].capital_years/unit > dual+offset+1e-7:
+                complete = False
+        capital_proven = complete
+        gap = max(0.,upper-best[1].net_profit)
+        if not capital_proven:
+            warnings.append("Максимум прибыли найден. Проверка минимального капитала пока не завершена.")
+    if status=='incomplete': warnings.append("Поиск не подтвердил максимум: не хватило времени или часть вариантов не прошла проверку. Показан лучший проверенный вариант, если он найден.")
     return OptimizationResult(*(best if best else (None,None,None)),status,proven,
-        upper if np.isfinite(upper) else None,gap,perf_counter()-started,checked,len(intervals),tuple(dict.fromkeys(warnings)))
+        upper if np.isfinite(upper) else None,gap,perf_counter()-started,checked,len(intervals),tuple(dict.fromkeys(warnings)),capital_proven)
