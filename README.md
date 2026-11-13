@@ -125,8 +125,7 @@ Excel — снимок результата и настроек, а не кни�
 - [Идеи развития с ИИ](AI_DEVELOPMENT.md).
 
 - [Методика и принятые допущения](MODEL_ASSUMPTIONS.md).
-- [Независимая проверка расчётов и оптимизации](research/INDEPENDENT_AUDIT.md).
-- [Базовые результаты MILP](research/BASE_RESULTS_WITH_THRESHOLDS.md) и [сравнение с DE](research/DEEP_COMPARISON.md).
+- [Финальная проверка модели и допустимости решений](research/FINAL_VALIDATION.md).
 - `app.py` — интерфейс; `bond_calculator/` — финансовое ядро и оптимизаторы; `data/` — стартовые параметры; `tests/` и `research/` — проверки и воспроизводимые эксперименты.
 
 Проверки выполняются из корня проекта в установленном окружении:
